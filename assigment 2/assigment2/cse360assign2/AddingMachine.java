@@ -35,6 +35,9 @@ public class AddingMachine {
 	}
 
 	public void clear() {
+		total =0;
+		historyTransaction="0";
+		
 	
 	}
 }

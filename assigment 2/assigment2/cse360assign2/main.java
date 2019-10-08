@@ -16,6 +16,17 @@ public class main {
 		System.out.println("Testing program !");
 		System.out.println(myCalculator.toString());
 		System.out.println("Total="+myCalculator.getTotal());
+		
+		myCalculator.clear();
+		System.out.println(myCalculator.toString());
+		System.out.println("Total="+myCalculator.getTotal());
+		
+		myCalculator.add(4);
+		myCalculator.subtract(4);
+		myCalculator.add(5);
+		System.out.println("Testing program !");
+		System.out.println(myCalculator.toString());
+		System.out.println("Total="+myCalculator.getTotal());
 	}
 
 }
